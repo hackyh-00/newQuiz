@@ -57,7 +57,7 @@ app.get('/quiz', async (req, res) => {
 
       
         const optionsWithLetters = options.map((option, index) => ({
-            letter: String.fromCharCode(65 + index), /
+            letter: String.fromCharCode(65 + index), 
             answer: option
         }));
 
